@@ -1,0 +1,198 @@
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: none;
+}
+
+/* Định dạng link điều hướng */
+.topnav a {
+    float: left;
+    display: block;
+    color: #0f0e0e;
+    padding: 15px 40px;
+    text-decoration:none;
+    font-size: 20px;
+}
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+    background-color: #0b0b0c;
+    color: white;
+}
+
+/* Cột phải */
+.colum {
+    width: 25%;
+    float: left;
+}
+ .san-pham {
+    margin: 10px;
+    text-align: center;
+ }
+.san-pham .ten {
+    font-size:small;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: rgb(3, 3, 17);
+}
+.san-pham img {
+    max-width: 85%;
+}
+.san-pham .gia {
+    color:rgb(80, 80, 80);
+    font-size: 12px;
+    font-variant: small-caps;
+}
+p > img {
+    width: 80%;
+    padding: 3px;
+    margin: 2px;
+    background-color:white;
+}
+
+p > img:hover {
+    box-shadow: 2px 10px rgb(248, 246, 246);
+    background-color: rgb(7, 7, 7);
+}
+/*chữ*/
+.chu1 {
+    padding: 0px 30px;
+    font-size: 15px;
+    font-family: small;
+    text-align: left;
+}
+.cuoi{
+    margin: auto;
+    background: #0f0e0e;
+    color: aliceblue;
+    height: 30px;
+    line-height: 30px;
+    width: 100%;
+    text-align: center;
+}
+   /* Style the top navigation bar */
+.chu2 {
+    overflow: hidden;
+    background-color: none;
+}
+
+/* Định dạng link điều hướng */
+.chu2 a {
+    float: right;
+    display: block;
+    color: #0f0e0e;
+    margin: 10px 40px;
+    text-decoration:none;
+    font-size: 15px;
+}
+/* Thay đổi màu liên kết khi di chuột qua */
+.chu2 a:hover {
+    background-color: #0b0b0c;
+    color: white;
+
+}
+
+/* SẢN PHẨM*/
+/* Tạo hai cột không bằng nhau, float cạnh nhau */
+/* Cột phải */
+.colum1 {
+    width: 20%;
+    float:right ;
+}
+ .san-pham1 {
+    margin: 10px;
+    text-align: center;
+ }
+.san-pham .ten1 {
+    font-size:small;
+    font-variant: small-caps;
+    font-weight: bold;
+    color: rgb(3, 3, 17);
+}
+.san-pham img1 {
+    max-width: 75%;
+}
+.san-pham .gia1 {
+    color:rgb(80, 80, 80);
+    font-size: 12px;
+    font-variant: small-caps;
+}
+p > img1 {
+    width: 70%;
+    padding: 3px;
+    margin: 2px;
+    background-color:white;
+}
+
+p > img:hover1 {
+    box-shadow: 2px 10px rgb(248, 246, 246);
+    background-color: rgb(7, 7, 7);
+}
+
+.text{
+    text-align: center;
+    color:#0f0e0e;
+    
+}
+
+/* dịch vụ*/
+.but > button {
+    text-align:left;
+    font-size: small;
+    float: none;
+
+}
+/* sp/
+.menu > ul > li {
+    display: inline-block;
+}
+.menu > ul > li > a {
+    display: block;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    color: aliceblue;
+    padding: 0 10px;
+    line-height: 40px;
+}
+.menu > ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    background-color: brown;
+    text-align: center;
+}
+.menu > ul > li > a:hover {
+    color: blueviolet;
+}
+.menu > ul >li {
+    position: relative;
+}
+.menu ul ul {
+    position: absolute;
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    border-radius: 3px;
+    width: 200px;
+    background-color: rgb(245, 241, 241);
+    box-shadow: 0 0 1px gray;
+}
+.menu ul ul a {
+    display: block;
+    line-height: 30px;
+    color:rgb(85, 33, 9);
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: larger;
+    padding: 0 10 px;
+    text-align: left;
+}
+.menu > ul > li:hover > ul {
+    display: block;
+}
+.menu ul ul a:hover{
+    background-color: rgb(131, 129, 127);
+    color: brown;
+}
